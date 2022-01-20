@@ -1,0 +1,67 @@
+footer {
+    .footer_yellow {
+        background: $brandRed;
+    }
+
+    a.full {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-left: 8px;
+            font-size: 13px !important;
+        }
+    }
+
+    .foot_btn {
+        padding-left: 10px !important;
+    }
+
+    .trex__footer_options {
+        display: flex;
+
+        img {
+            width: auto;
+            margin: auto;
+        }
+    }
+
+    .trex__footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+footer .footer_yellow .container .row div .redes_sociales > div:hover {
+    background-color: $brandRed;
+}
+
+.footer_black {
+
+    .trex__footer_container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    p {
+        color: white;
+        margin-bottom: 0;
+        line-height: 1.35;
+    }
+
+    .trex__footer_logo {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            color: white;
+            font-size: 18px;
+        }
+
+        img {
+            max-width: 145px;
+            margin-left: 12px;
+        }
+    }
+}

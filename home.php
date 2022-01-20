@@ -55,6 +55,34 @@ get_header();
             </div>
         <?php }?>
 
+        <div class="trex__home_sec2">
+           <?php the_field('texto_sec2', 'option') ?>
+            <div class="trex__home_sec2-dats">
+                <div>
+                    <h3>+30</h3>
+                    <h4>lorem ipsum</h4>
+                </div>
+                <div>
+                    <h3>+30</h3>
+                    <h4>lorem ipsum</h4>
+                </div>
+                <div>
+                    <h3>+30</h3>
+                    <h4>lorem ipsum</h4>
+                </div>
+                <div>
+                    <h3>+30</h3>
+                    <h4>lorem ipsum</h4>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        
+
         <?php if($widgets){?>
             <div class="container">
                 <div class="row padd-8">

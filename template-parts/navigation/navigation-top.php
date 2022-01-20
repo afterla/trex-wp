@@ -15,7 +15,7 @@ $atencion= get_field('header_atencion', 'option');
       <div class="container" id="header_container">
         <div class="logo">
           <a href="<?php echo WEB_URL;?>">
-            <img src="<?php echo TEMPLATE_URL;?>/images/logo.png" alt="Ferreyros">
+            <img src="<?php echo TEMPLATE_URL;?>/images/logo.svg" alt="Ferreyros">
           </a>          
         </div>
         <div class="box_topper">
@@ -52,7 +52,7 @@ $atencion= get_field('header_atencion', 'option');
     <div class="menu_mobile">
             <div class="logo">
         <a href="<?php echo WEB_URL?>">
-          <img src="<?php echo TEMPLATE_URL;?>/images/logo.png" alt="Ferreyros">
+          <img src="<?php echo TEMPLATE_URL;?>/images/logo.svg" alt="Ferreyros">
         </a>          
       </div>
       <div class="sanguche">

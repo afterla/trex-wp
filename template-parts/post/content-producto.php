@@ -61,8 +61,8 @@ $benefits = get_field('benefit', $post);
 
 
 <div class="caja">
-	<h3><?php if($parent_id) echo $parent_title; ?></h3>
-	<h1><?php echo $post_title; ?></h1>
+	<h3><?php if($parent_id) echo $parent_title . " " . $post_title; ?></h3>
+	<!-- <h1><?php echo $post_title; ?></h1> -->
 	<div class="producto_detalle">
 		<ul class="producto_menu">
 			<li class="principal">
@@ -72,15 +72,7 @@ $benefits = get_field('benefit', $post);
 				</div>
 				<span>Principal</span>
 			</li>
-		<?php if($specs){ ?>
-			<li class="informacion">
-				<a href="<?php echo $page_url; ?>&view=informacion#ancla" class="full"></a>
-				<div class="ico">
-					<img src="<?php echo TEMPLATE_URL; ?>/images/producto-menu-ico2.png">
-				</div>
-				<span>Información Técnica</span>
-			</li>
-		<?php } ?>
+		
 		<?php if($benefits){ ?>
 			<li class="beneficios">
 				<a href="<?php echo $page_url; ?>&view=beneficios#ancla" class="full"></a>
@@ -97,6 +89,7 @@ $benefits = get_field('benefit', $post);
 				</div>
 				<span>Comparar</span>
 			</li>
+			<!--
 			<li class="cotizar">
 				<a href="<?php echo WEB_URL; ?>/cotizador/?id=<?php echo $post->ID; ?>&parent=<?php echo $parent_id;?>" class="full"></a>
 				<div class="ico">
@@ -104,6 +97,7 @@ $benefits = get_field('benefit', $post);
 				</div>
 				<span>Cotizar</span>
 			</li>
+			-->
 		</ul> 
 
 	<?php

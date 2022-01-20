@@ -34,6 +34,7 @@ $ogdescr = is_home()? get_bloginfo('description'): preg_replace('/\s+/', ' ', st
  	<link rel="stylesheet" href="<?php echo TEMPLATE_URL;?>/css/main.css" media="screen">
  	<link rel="stylesheet" href="<?php echo TEMPLATE_URL;?>/css/bootstrap.min.css" media="screen">
  	<link rel="stylesheet" href="<?php echo TEMPLATE_URL;?>/css/bootstrap-grid.css" media="screen">
+	 <link rel="stylesheet" href="<?php echo TEMPLATE_URL;?>/css/styles.css" media="screen">
 
  	<script src="<?php echo TEMPLATE_URL;?>/js/jquery-1.11.3.min.js"></script>
  	<script src="<?php echo TEMPLATE_URL;?>/js/popper.min.js"></script>

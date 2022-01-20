@@ -152,7 +152,7 @@ function custom_menu_footer() {
 			$url 	= $menu_item->url;
 			$class  = $menu_item->classes[0];
 
-			$menu_list .= "\t". '<li><a href="'. $url .'" '.$target.'>'. $title . '</a></li>' ."\n";
+		//	$menu_list .= "\t". '<li><a href="'. $url .'" '.$target.'>'. $title . '</a></li>' ."\n";
 
 		}
 
